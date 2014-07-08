@@ -41,6 +41,7 @@ class HotelsController < ApplicationController
   def book
     @hotel = Hotel.find(params[:id])
     flash[:notice] = "Thank you for booking a room at #{@hotel.name}. Come again soon!"
+    track! :bookings
     redirect_to hotels_path
   end
 

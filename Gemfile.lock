@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/lonelyplanet/vanity
-  revision: dffa33e552816fd77086464034bfb6c31c45675b
+PATH
+  remote: /Users/saratrice/Projects/vanity
   specs:
     vanity (1.9.1)
 

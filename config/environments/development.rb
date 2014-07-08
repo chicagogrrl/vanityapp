@@ -34,4 +34,8 @@ Vanityapp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # don't let vanity fail if redis isn't running
+  Vanity.playground.failover_on_datastore_error!
+
 end

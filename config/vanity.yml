@@ -4,6 +4,10 @@ development:
   host: localhost
   port: 5222
 test:
+  adapter: redis
+  database: analytics
+  host: localhost
+  port: 5222
   collecting: false
 production:
   collecting: false

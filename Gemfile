@@ -14,6 +14,6 @@ gem 'jquery-rails'
 gem 'rspec-rails'
 gem 'foreman'
 
-gem 'vanity', git: 'git://github.com/lonelyplanet/vanity'
+gem 'vanity', path: '/Users/saratrice/Projects/vanity'
 gem 'redis', '>= 2.1'
 gem 'redis-namespace', '>= 1.1.0'

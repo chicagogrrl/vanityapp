@@ -12,3 +12,4 @@ end
 
 gem 'jquery-rails'
 gem 'rspec-rails'
+gem 'foreman'

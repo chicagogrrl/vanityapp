@@ -1,1 +1,1 @@
-redis:          redis-server --port $PORT
+redis:          redis-server --port 5222
